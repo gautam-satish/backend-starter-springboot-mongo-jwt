@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: development
+
+  data:
+    mongodb:
+      database: sabariGrand_v1
+      uri: mongodb+srv://gautammailbox:v2r2SBtphyuvuNsP@cluster0.jftvjik.mongodb.net/sabariGrand_v1?retryWrites=true&w=majority
+
+auth:
+  secretKey: 4346554E4D49415435566A616C5571743867676E5A5053736D4C6E33486C4673
